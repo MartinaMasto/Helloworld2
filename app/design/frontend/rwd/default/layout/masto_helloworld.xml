@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <default>
+        <reference name="right">
+            <block type="masto_helloworld/Helloworld.php" name="helloworld.side.right" template="masto_helloworld/helloworldside.phtml"></block>
+        </reference>
+    </default>
+    <helloworld_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2column-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="masto_helloworld/Helloworld.php" name="helloworld_content_index" template="masto_helloworld/helloworld_content.phtml"></block>
+        </reference>
+    </helloworld_index_index>
+</layout>
