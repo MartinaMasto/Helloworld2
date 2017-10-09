@@ -1,0 +1,15 @@
+<div class="content">
+    <?php
+    if($this->isEnabled() == true) : ?>
+    <div name="helloworld_content">
+        <h2>Zend to Magento</h2><hr>
+            <h1>Prova</h1><hr>
+        <?php
+        if($this->getMessage()!="")
+            echo $this->getMessage();
+        else
+            echo "Have you written something?";
+        ?>
+    </div>
+    <?php endif ; ?>
+</div>
