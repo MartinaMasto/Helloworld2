@@ -11,10 +11,10 @@
                         <children>
                             <configuration>
                                 <children>
-                                    <Masto_Helloworld translate="title">
+                                    <masto_helloworld translate="title">
                                         <title>Hello World 2</title>
                                         <sort_order>50</sort_order>
-                                    </Masto_Helloworld>
+                                    </masto_helloworld>
                                 </children>
                             </configuration>
                         </children>

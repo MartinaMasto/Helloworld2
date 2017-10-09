@@ -2,7 +2,7 @@
 <config>
     <modules>
         <masto_helloworld>
-            <enabled>true</enabled>
+            <active>true</active>
             <codePool>local</codePool>
         </masto_helloworld>
     </modules>

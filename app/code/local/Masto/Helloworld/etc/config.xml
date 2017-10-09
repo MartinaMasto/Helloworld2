@@ -13,9 +13,7 @@
             <class>Masto_Helloworld_Block</class>
         </blocks>
     </global>
-    <adminhtml>
 
-    </adminhtml>
     <frontend>
         <routers>
             <helloworld>
@@ -36,7 +34,7 @@
         <masto_helloworld>
             <configuration>
                 <enabled>0</enabled>
-                <message>Message not defined.</message>
+                <message>Welcome!</message>
             </configuration>
         </masto_helloworld>
     </default>
