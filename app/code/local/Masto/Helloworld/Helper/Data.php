@@ -18,7 +18,7 @@ class Masto_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function getConfig($config)
     {
-        return Mage::getStoreConfig("masto_helloworld/".config);
+        return Mage::getStoreConfig("masto_helloworld/".$config);
     }
     /**
      * isEnabled()

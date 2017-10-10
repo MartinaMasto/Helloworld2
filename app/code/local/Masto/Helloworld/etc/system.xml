@@ -2,7 +2,8 @@
 <config>
     <sections>
         <masto_helloworld module="masto_helloworld" translate="label">
-            <label>Hello world configurations</label>
+            <label>Hello World </label>
+            <tab>general</tab>
             <sort_order>30</sort_order>
             <show_in_store>1</show_in_store>
             <show_in_website>1</show_in_website>

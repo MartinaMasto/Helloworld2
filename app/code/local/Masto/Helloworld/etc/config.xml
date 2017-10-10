@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
     <modules>
-        <masto_helloworld>
+        <Masto_Helloworld>
             <version>0.1.0</version>
-        </masto_helloworld>
+        </Masto_Helloworld>
     </modules>
     <global>
         <helpers>
-            <class>Masto_Helloworld_Helper</class>
+            <masto_helloworld>
+                <class>Masto_Helloworld_Helper</class>
+            </masto_helloworld>
         </helpers>
         <blocks>
-            <class>Masto_Helloworld_Block</class>
+            <masto_helloworld>
+                <class>Masto_Helloworld_Block</class>
+            </masto_helloworld>
         </blocks>
     </global>
-
     <frontend>
         <routers>
             <helloworld>
@@ -26,7 +29,9 @@
         </routers>
         <layout>
             <update>
-                <file>masto_helloworld.xml</file>
+                <masto_helloworld>
+                    <file>masto_helloworld.xml</file>
+                </masto_helloworld>
             </update>
         </layout>
     </frontend>

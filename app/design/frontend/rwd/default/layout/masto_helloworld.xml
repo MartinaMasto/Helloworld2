@@ -2,7 +2,7 @@
 <layout>
     <default>
         <reference name="right">
-            <block type="masto_helloworld/Helloworld.php" name="helloworld.side.right" template="masto_helloworld/helloworldside.phtml"></block>
+            <block type="masto_helloworld/Helloworld" name="helloworld.side.right" template="masto_helloworld/helloworldside.phtml"/>
         </reference>
     </default>
     <helloworld_index_index>
