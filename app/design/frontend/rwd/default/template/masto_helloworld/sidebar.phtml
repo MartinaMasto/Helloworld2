@@ -1,13 +1,5 @@
-<?php
-if(Mage::helper("masto_helloworld")->isEnabled()) :
-?>
-
+<?php if (Mage::helper("masto_helloworld")->isEnabled()) : ?>
     <div class="block-hello">
-        <b>
-            <?php
-                echo $this->getMessage(); ?>
-        </b>
+        <b><?php echo $this->getMessage(); ?></b>
     </div>
-<?php
-endif;
-?>
+<?php endif; ?>

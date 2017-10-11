@@ -8,6 +8,7 @@
  *
  * @version 0.1.0
  * @author Martina Masto <martina.masto@thinkopen.it>
+ * @package Cms
  */
 class Masto_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 {

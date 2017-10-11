@@ -1,16 +1,11 @@
 <div class="content">
-    <?php
-    if($this->isEnabled() == true) : ?>
+    <?php if ($this->isEnabled() == true) : ?>
     <div name="helloworld_content">
-        <?php echo $this->__('Zend to Magento');
-            echo "<hr>";
-            echo $this->__('Attempt');
-             echo "<hr>";
-        if($this->getMessage()!="")
-            echo $this->getMessage();
-        else
-            echo $this->__('Have you written something?');
-        ?>
+        <?php if ($this->getMessage()!="") : ?>
+        <p><?php echo $this->getMessage(); ?></p>
+        <?php else : ?>
+        <p><?php echo $this->__('Have you written something?'); ?></p>
+        <?php endif; ?>
     </div>
-    <?php endif ; ?>
+    <?php endif; ?>
 </div>

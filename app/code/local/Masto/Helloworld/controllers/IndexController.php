@@ -8,6 +8,7 @@
  *
  * @version 0.1.0
  * @author Martina Masto <martina.masto@thinkopen.it>
+ * @package Cms
  */
 class Masto_Helloworld_IndexController extends Mage_Core_Controller_Front_Action
 {
@@ -17,8 +18,8 @@ class Masto_Helloworld_IndexController extends Mage_Core_Controller_Front_Action
      */
     public function indexAction()
     {
-    $this->loadLayout();
-    $this->renderLayout();
+        $this->loadLayout();
+        $this->renderLayout();
     }
 }
 
