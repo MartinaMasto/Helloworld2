@@ -9,14 +9,14 @@
                 <children>
                     <system>
                         <children>
-                            <configuration>
+                            <config>
                                 <children>
                                     <masto_helloworld translate="title">
                                         <title>Hello World 2</title>
                                         <sort_order>50</sort_order>
                                     </masto_helloworld>
                                 </children>
-                            </configuration>
+                            </config>
                         </children>
                     </system>
                 </children>

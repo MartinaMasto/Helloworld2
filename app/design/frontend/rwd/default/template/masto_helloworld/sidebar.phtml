@@ -5,8 +5,7 @@ if(Mage::helper("masto_helloworld")->isEnabled()) :
     <div class="block-hello">
         <b>
             <?php
-                echo Mage::helper("masto_helloworld")->getConfig("confguration/message") ?>
-            ?>
+                echo $this->getMessage(); ?>
         </b>
     </div>
 <?php

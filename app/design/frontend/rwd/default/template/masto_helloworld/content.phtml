@@ -2,13 +2,14 @@
     <?php
     if($this->isEnabled() == true) : ?>
     <div name="helloworld_content">
-        <h2>Zend to Magento</h2><hr>
-            <h1>Prova</h1><hr>
-        <?php
+        <?php echo $this->__('Zend to Magento');
+            echo "<hr>";
+            echo $this->__('Attempt');
+             echo "<hr>";
         if($this->getMessage()!="")
             echo $this->getMessage();
         else
-            echo "Have you written something?";
+            echo $this->__('Have you written something?');
         ?>
     </div>
     <?php endif ; ?>

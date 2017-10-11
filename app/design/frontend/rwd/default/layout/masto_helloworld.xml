@@ -2,17 +2,12 @@
 <layout>
     <default>
         <reference name="right">
-            <block type="masto_helloworld/Helloworld" name="helloworld.side.right" template="masto_helloworld/helloworldside.phtml"/>
+            <block type="masto_helloworld/helloworld" name="helloworld.side.right" template="masto_helloworld/sidebar.phtml"/>
         </reference>
     </default>
-    <helloworld_index_index>
-        <reference name="root">
-            <action method="setTemplate">
-                <template>page/2column-right.phtml</template>
-            </action>
-        </reference>
+    <masto_helloworld_index_index>
         <reference name="content">
-            <block type="masto_helloworld/Helloworld.php" name="helloworld_content_index" template="masto_helloworld/helloworld_content.phtml"></block>
+            <block type="masto_helloworld/helloworld" name="helloworld.content" template="masto_helloworld/content.phtml"/>
         </reference>
-    </helloworld_index_index>
+    </masto_helloworld_index_index>
 </layout>
